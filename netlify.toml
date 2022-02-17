@@ -1,30 +1,4 @@
-# [Settings]
-# ID = "Your_Site_ID"
-
-
 # https://docs.netlify.com/configure-builds/file-based-configuration/
-
-# A basic redirect rule
-#[[redirects]]
-#  from = "/*"
-#  to = "/blog/:splat"
-
-# A redirect rule with many of the supported properties
-[[redirects]]
-  from = "/old-path"
-  to = "/new-path"
-
-  # The default HTTP status code is 301, but you can 
-  # define a different one.
-#  status = 302
-
-  # By default, redirects won’t be applied if there’s a file 
-  # with the same path as the one defined in the `from` property.
-  # Setting `force` to `true` will make the redirect rule
-  # take precedence over any existing files.
-#  force = true
-
-
 
 # The following redirect is intended for use with most SPAs 
 # that handle routing internally.
@@ -37,8 +11,4 @@
   # with the same path as the one defined in the `from` property.
   # Setting `force` to `true` will make the redirect rule
   # take precedence over any existing files.
-  force = true
-
-
-
-
+  # force = true
