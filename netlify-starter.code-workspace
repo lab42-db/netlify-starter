@@ -2,7 +2,23 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../../Downloads/html5-history-router-master"
+		},
+		{
+			"path": "../../../Downloads/simple-router-master"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "simple-router-master",
+		"files.exclude": {
+			"/Users/sandorzsolt/Downloads/Vanilla-JS-Routing-master": true
+		},
+		"workspace.isHidden": false,
+		"emmet.syntaxProfiles": {
+			"html": "xhtml"
+		},
+		"html.format.endWithNewline": true,
+	}
 }
