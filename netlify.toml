@@ -13,7 +13,7 @@
   # take precedence over any existing files.
   # force = true
 
-# [[redirects]]
-#   from = "/*"
-#   to = "/index.html"
-#   status = 200
+[[redirects]]
+  from = "/internallink"
+  to = "/index.html"
+  status = 200
